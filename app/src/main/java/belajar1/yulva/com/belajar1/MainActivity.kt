@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager, FragmentPagerItems.with(this)
                 .add("Home", satuFragment::class.java)
                 .add("Recomendasi Manga", duaFragment::class.java)
-                .add("Streaming Manga", tigaFragment::class.java)
+                .add("one piece chapter 937", tigaFragment::class.java)
                 .add("Profil", empatFragment::class.java)
                 .create()
         )

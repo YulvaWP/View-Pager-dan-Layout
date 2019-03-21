@@ -3,12 +3,28 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context=".satuFragment">
+             tools:context=".tigaFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/hello_blank_fragment"/>
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="5dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/bcde"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+        </linearLayout>
+        <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="5dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/cdef"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+        </linearLayout>
+    </ScrollView>
+
 
 </FrameLayout>

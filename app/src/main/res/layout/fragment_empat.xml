@@ -6,9 +6,58 @@
              tools:context=".empatFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/hello_blank_fragment"/>
 
+    <LinearLayout
+            android:layout_width="214dp"
+            android:layout_height="193dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/yulva"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:background="#6A000000"
+            android:orientation="vertical">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Yulva Widiyana Putri"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="260dp"
+            android:background="#6A000000"
+            android:orientation="vertical">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="16670071"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="320dp"
+            android:orientation="vertical">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="alhamdulillah"
+                android:textColor="@android:color/black"
+                android:textSize="30dp"
+                android:gravity="center"/>
+
+    </LinearLayout>
 </FrameLayout>
